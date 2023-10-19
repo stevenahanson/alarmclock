@@ -1,3 +1,10 @@
+import AlarmClock from "./components/Alarm";
+
 export default function Home() {
-  return <p>Hello World</p>;
+  return (
+    <>
+      <h1>Wakey Wakey!</h1>
+      <AlarmClock />
+    </>
+  );
 }
